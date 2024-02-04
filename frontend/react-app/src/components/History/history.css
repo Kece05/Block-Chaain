@@ -1,0 +1,35 @@
+.transaction-blocks {
+    display: flex;
+    flex-direction: column;
+}
+  
+.transaction-block {
+    border: 1px solid #a39f9f;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+.transaction-block p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+  
+.transaction-block h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #333;
+ }
+  
+.transaction-history-heading {
+    margin-top: 25px;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+  

@@ -1,0 +1,49 @@
+.sectiondiv {
+    background: #546e7a;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-field,
+textarea {
+    width: 100%;
+    margin-bottom: 15px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    appearance: none;
+    width: 100%;
+    background-color: #fff;
+    border: 5px solid #caced1;
+    color: #000;
+    cursor: pointer;
+    text-align: center;
+}
+
+select:focus {
+    background-image:
+      linear-gradient(45deg, green 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, green 50%),
+      linear-gradient(to right, #ccc, #ccc);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      calc(100% - 2.5em) 0.5em;
+    background-size:
+      5px 5px,
+      5px 5px,
+      1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: green;
+    outline: 0;
+  }

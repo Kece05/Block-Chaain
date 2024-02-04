@@ -1,0 +1,114 @@
+.box {
+    width: 125px;
+    height: 200px;
+    background-color: #5c94de; 
+    margin: 40px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Times', cursive; 
+    font-size: 14px;
+    border: 1px solid #333; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out; 
+    position: relative;
+}
+
+.transfer-button {
+    background-color: #0266a9;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transfer-button:hover {
+    background-color: #030c12;
+  }
+
+.box:hover {
+    transform: scale(1.05); 
+    background-color: #667891;
+    z-index: 0;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #f7f7f7;
+    border-radius: 50%; 
+    position: absolute;
+    top: 10px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top {
+    margin-top: 40px; 
+    color: #363637;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.bottom {
+    margin-top: -30px; 
+    color: #232323;
+    font-size: 12px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.modal.show {
+    display: flex; 
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+    }
+
+.close:hover {
+    color: #333;
+}
+
+.no-tokens-message {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+    margin-top: 20px;
+}

@@ -1,0 +1,86 @@
+.header {
+    width: 75%;
+    background-color: #4f4e4e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px auto;
+    cursor: pointer;
+    font-family: 'Times', cursive; 
+    border: 1px solid #333; 
+    border-radius: 10px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.header:hover {
+    transform: scale(1.02); 
+    background-color: #797777;
+    z-index: 0;
+}
+
+.modal-content {
+    background: #fff;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 80%;
+    max-height: 80%;
+    overflow-y: auto;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #aaa;
+}
+
+.closed:hover {
+    color: #333;
+}
+
+.main-contented {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0px !important;
+}
+  
+.token-info {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 35px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.token-info h2 {
+    margin-right: 50px;
+}
+
+.transaction-history-button {
+    background-color: #4CAF50; 
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right; 
+    margin-right: 10px; 
+}
+  
+.transaction-history-button:hover {
+    background-color: #45a049; 
+}
+  
