@@ -20,17 +20,16 @@ facilitates transactions through the use of tokens from the blocks. This project
 - `TransactionWtoW`: Manages wallet-to-wallet transactions of tokens between users. The Transaction will definetly will be more secure in the future.
 
 **Demo:**
-If you would like to see a full demo: https://youtu.be/yp0gISwGmio
-This video goes over the concepts.
+If you would like to see a full demo, this video goes over the concepts: https://youtu.be/yp0gISwGmio
 
 **To-Do's:**
-- [ ] Improve UI
-- [ ] Make secure, make it encryption, https, prevent attacks
-- [ ] Create forgot passwords/username, or update email
-- [ ] Fix alerts style
-- [ ] Create a token search
-- [ ] Send email when block sends token
-- [ ] Instead of using nested Dictonarys, create a database using Docker or SQL.
+- Improve UI
+- Make secure, make it encryption, https, prevent attacks
+- Create forgot passwords/username, or update email
+- Fix alerts style
+- Create a token search
+- Send email when block sends token
+- Instead of using nested Dictonarys, create a database using Docker or SQL.
 
 Please note that this code is a demonstration and may require additional security measures and optimizations for a production environment. 
 Feel free to explore and contribute to enhance the functionality and security of this blockchain implementation.
